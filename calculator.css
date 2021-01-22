@@ -1,0 +1,89 @@
+.image{
+    background-image:url("file:///C:/Users/LENOVO/Desktop/webdevelopment/Calculator/calculator%20image.PNG");
+    width:1000px;
+    height:580px;
+    margin-top:20px;
+}
+body{
+    background-color:black;
+}
+#calculator{
+    width:362px;
+    height:535px;
+    background-color:white;
+    margin-left:295px;
+    border-radius:10px;
+    
+}
+#result{
+    width:272px;
+    height:140px;
+}
+#history{
+    width:361px;
+    height:70px;
+    background-color:white;
+    text-align:right;
+    color:#6f6666;
+    padding-top:42px;
+    padding-right:5px;
+    
+}
+#output{
+    width:361px;
+    height:70px;
+    background-color:white;
+    text-align:right;
+    font-size:40px;
+    padding-right:5px;
+}
+#keyboard{
+    width:361px;
+    height:250px;
+    background-color:white;
+}
+.operator,.number,.empty{
+    margin-left:42px;
+    margin-top:32px;
+    border-radius:50%;
+    border:white;
+    height:41px;
+    width:44px;
+    font-weight:bold;
+    font-size:15px;
+    float:left;
+    cursor:pointer;
+
+}
+.number,.empty{
+    background-color:white;
+}
+.number,.operator{
+    cursor:pointer;
+}
+.operator:active,.number:active{
+    font-size:13px;
+}
+.operator:focus,.number:focus,empty:focus{
+    outline:0;
+}
+button:nth-child(4){
+    font-size:20px;
+    background-color:#20b246;
+}
+button:nth-child(8){
+    font-size:20px;
+    background-color:#dca6c3;
+}
+button:nth-child(12){
+    font-size:20px;
+    background-color:#ffa500;
+}
+button:nth-child(16){
+    font-size:20px;
+    background-color:#73e0d9;
+}
+button:nth-child(20){
+    font-size:20px;
+    background-color:#9477af;
+}
